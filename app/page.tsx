@@ -1,9 +1,9 @@
 export default function Home() {
   // ここを変更してください！
   const profile = {
-    name: "{まっき}",
-    job: "{水道水質管理}",
-    bio: "{プログラム初心者の実践稽古}"
+    name: "まっき",
+    job: "水道水質管理",
+    bio: "プログラム初心者の実践稽古"
   };
 
   return (
