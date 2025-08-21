@@ -25,7 +25,7 @@ jobs:
       - name: Deploy to Walrus
         uses: MystenLabs/walrus-sites/.github/actions/deploy@main
         with:
-          SUI_ADDRESS: ${{ secrets.SUI_ADDRESS }}
+          SUI_ADDRESS: ${{ vars.SUI_ADDRESS }}
           SUI_KEYSTORE: ${{ secrets.SUI_KEYSTORE }}
           GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
           DIST: out
